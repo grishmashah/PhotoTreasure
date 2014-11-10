@@ -4,5 +4,6 @@
     <string name="app_name">Photo Treasure</string>
     <string name="action_settings">Settings</string>
     <string name="query_hint">Search Images</string>
+    <string name="no_internet_connection">"No Internet Connection. Please enable your provider first."</string>
 
 </resources>

@@ -130,7 +130,7 @@ public class SearchImagesActivity extends Activity {
 
     // showing Toast for no internet connection
     private void NoConnectionToast(){
-        Toast t = Toast.makeText(this, "No Internet Connection. Please enable your provider first.", Toast.LENGTH_SHORT);
+        Toast t = Toast.makeText(this, R.string.no_internet_connection, Toast.LENGTH_SHORT);
         t.setGravity(Gravity.CENTER, 0, 0);
         t.show();
     }
