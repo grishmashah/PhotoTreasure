@@ -1,0 +1,34 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="#2a2a2a"
+    tools:context=".SearchImagesActivity">
+
+    <SearchView
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/round_border"
+        android:id="@+id/img_searchView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:iconifiedByDefault="false"
+        android:queryHint="@string/query_hint"
+        android:layout_marginBottom="30dp">
+    </SearchView>
+    <GridView
+        android:padding="10dp"
+        android:id="@+id/img_gridView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:columnWidth="250dp"
+        android:numColumns="3"
+        android:verticalSpacing="2dp"
+        android:stretchMode="columnWidth"
+        android:gravity="center">
+    </GridView>
+</LinearLayout>
